@@ -19,7 +19,7 @@ public class _2_factorial {
         int fact = 1;
 
         if(userNum >= 0){
-            for(int i = 1; i < (userNum + 1); i++){
+            for(int i = 1; i <= userNum; i++){
                 fact = fact * i;
 
             }
